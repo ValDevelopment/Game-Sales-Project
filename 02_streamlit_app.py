@@ -114,7 +114,7 @@ def get_examples(pairs, X_all, v_all, publisher, n=3):
 
 from pathlib import Path
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "pixel_games_sales_pairs.csv"
+DATA_PATH = Path(__file__).resolve().parent / "data" / "pixel_games_sales_pairs.csv"
 
 try:
     pairs = load_pairs(DATA_PATH)
